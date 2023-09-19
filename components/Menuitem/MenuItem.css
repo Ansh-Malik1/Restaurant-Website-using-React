@@ -1,0 +1,33 @@
+.app__menuitem-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+}
+
+.app__menuitem-dash{
+    height: 1px;
+    width: 90px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+}
+
+.app__menuitem{
+    margin: 0 1.5rem;
+}
+
+.app__menutitem-name{
+    flex: 1;
+}
+
+@media screen and (max-width:900px){
+    .app__menuitem-dash{
+        width:200px
+    }
+}
+
+@media screen and (max-width:650px){
+    .app__menuitem-dash{
+        width:100px
+    }
+}
